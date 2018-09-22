@@ -1,0 +1,5 @@
+[filter "private"]
+clean = openssl enc -rc5 -k 12345 -nosalt
+smudge = openssl enc -d -rc5 -k 12345 -nosalt
+[diff "private"]
+textconv = cat 
