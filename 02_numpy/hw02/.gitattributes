@@ -1,2 +1,0 @@
-*.py filter=private diff=private
-*.ipynb filter=private diff=private

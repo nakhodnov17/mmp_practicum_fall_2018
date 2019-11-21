@@ -1,1 +1,2 @@
-Ğ.È¬t¨"jN½şs`IÏT\à&J°gY$nŞÍ\ã¦¸[GÈ¸QÖsIéwMBßU† ¤{HíUírÒsFÜ­Ç±Â¶öşµP£ŸÈ,‘ãš*³şG
+def subreverse_sequence(sequence):
+    return tuple(sequence[::2][::-1] + sequence[1::2])
